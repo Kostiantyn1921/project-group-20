@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 .reviews-item {
     display: flex;
     flex-direction: column;
@@ -28,4 +29,8 @@
     .desktop {
         display:block;
     }
+=======
+.card-advantages {
+
+>>>>>>> Stashed changes
 }
