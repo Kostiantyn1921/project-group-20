@@ -1,0 +1,30 @@
+.reviews-item {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.tablet {
+    display: none;
+}
+
+.desktop {
+    display: none;
+}
+
+.reviews-item {
+    background-color:  #fbfbfb;
+}
+
+@media screen and (min-width: 768px) {
+    .tablet {
+        display:block;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .desktop {
+        display:block;
+    }
+}
