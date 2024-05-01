@@ -14,7 +14,8 @@
 }
 
 .reviews-item {
-    background-color:  #fbfbfb;
+    background-color:  #f3f3f3;
+    border-radius: 30px;
 }
 
 @media screen and (min-width: 768px) {
