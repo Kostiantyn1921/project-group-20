@@ -40,8 +40,13 @@ img {
 }
 
 .container {
-  width: 100%;
   margin: 0 auto;
+}
+
+@media screen and (min-width: 320px) and (max-width: 375px) {
+  .container {
+    width: 100%;
+  }
 }
 
 @media screen and (min-width: 375px) {
