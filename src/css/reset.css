@@ -47,21 +47,21 @@ img {
 @media screen and (min-width: 375px) {
   .container {
     width: 375px;
-    padding: 20px 0;
+    padding: 0 20px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .container {
     width: 768px;
-    padding: 32px 0;
+    padding: 0 32px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .container {
     width: 1280px;
-    padding: 65px 0;
+    padding: 0 65px;
   }
 }
 
