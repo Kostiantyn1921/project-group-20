@@ -1,0 +1,131 @@
+hr {
+  border: 1px solid rgba(251, 251, 251, 0.1);
+  /* height: 1px; */
+  margin-bottom: 24px;
+  /* width: 279px; */
+}
+
+.footer-container {
+  max-width: 335px;
+  padding: 40px 28px 28px 28px;
+  border-radius: 30px;
+  background-color: #0c0c0c;
+}
+
+.footer-logo {
+  display: block;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+  margin-bottom: 20px;
+}
+
+.footer-socials-list {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.footer-socials-item {
+  border: 1px solid rgba(251, 251, 251, 0.1);
+  border-radius: 10px;
+  width: 34px;
+  height: 34px;
+}
+
+.contacts {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(251, 251, 251, 0.2);
+  border-radius: 16px;
+  width: 152px;
+  height: 44px;
+  margin-bottom: 40px;
+}
+
+.footer-contacts-tel {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.33333;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fbfbfb;
+}
+
+.footer-text {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #fbfbfb;
+  width: 279px;
+  margin-bottom: 92px;
+}
+
+.footer-wrapper {
+  display: flex;
+  gap: 49px;
+  /* justify-content: space-between; */
+  margin-bottom: 24px;
+}
+.footer-nav-list {
+  display: flex;
+  max-width: 147px;
+  flex-wrap: wrap;
+  column-gap: 16px;
+  row-gap: 8px;
+}
+
+.footer-nav-item {
+  display: block;
+}
+
+.footer-nav-link {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.33333;
+  text-align: center;
+  color: #fbfbfb;
+}
+
+.footer-adress {
+  max-width: 83px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.33333;
+  color: #fbfbfb;
+}
+
+.copyright {
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 1.4;
+  letter-spacing: -0.02em;
+  color: rgba(251, 251, 251, 0.5);
+  opacity: 0.9;
+  margin-bottom: 8px;
+}
+
+.footer-terms-link {
+  display: inline;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 1.4;
+  letter-spacing: -0.02em;
+  text-align: right;
+  color: rgba(251, 251, 251, 0.5);
+  margin-right: 20px;
+}
+
+.footer-policy-link {
+  display: inline;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 1.4;
+  letter-spacing: -0.02em;
+  text-align: right;
+  color: rgba(251, 251, 251, 0.5);
+}
