@@ -56,6 +56,11 @@
 
 @media screen and (min-width: 768px) {
 
+    .reviews {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
     .reviews-blocks {
         gap: 16px;
     }
@@ -89,6 +94,12 @@
 }
 
 @media screen and (min-width: 1280px) {
+
+    .reviews {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
     .desktop {
         display:flex;
     }
