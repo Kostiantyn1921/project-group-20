@@ -10,6 +10,7 @@ hr {
   padding: 40px 28px 28px 28px;
   border-radius: 30px;
   background-color: #0c0c0c;
+  margin: 0 auto;
 }
 
 .footer-first-wrapper {
@@ -31,14 +32,24 @@ hr {
   margin-bottom: 20px;
 }
 
-.footer-socials-item {
+.footer-socials-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border: 1px solid rgba(251, 251, 251, 0.1);
   border-radius: 10px;
   width: 34px;
   height: 34px;
 }
 
-.contacts {
+.footer-socials-icon {
+  width: 20px;
+  height: 20px;
+  fill: #fbfbfb;
+  opacity: 0.8;
+}
+
+.footer-contacts {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -84,15 +95,16 @@ hr {
 }
 
 .footer-nav-item {
+  position: relative;
   display: block;
 }
 
 .footer-nav-link {
   font-weight: 500;
   font-size: 12px;
-  line-height: 1.33333;
+  line-height: 1.33;
   text-align: center;
-  color: #fbfbfb53;
+  color: #fbfbfb;
 }
 
 .footer-adress {
@@ -114,7 +126,7 @@ hr {
 }
 
 .footer-links-wrapper {
-  flex-direction: column;
+  display: flex;
   gap: 20px;
 }
 .terms-link {
@@ -135,7 +147,10 @@ hr {
   color: rgba(251, 251, 251, 0.5);
 }
 
-@media screen and (min-width: 320px) and (max-width: 375px) {
+@media screen and (min-width: 320px) and (max-width: 374px) {
+  .footer-container {
+    width: 100%;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -145,6 +160,7 @@ hr {
 
   .footer-container {
     max-width: 624px;
+    /* min-width: 704px; */
     padding: 40px 40px 28px 40px;
   }
 
@@ -167,19 +183,25 @@ hr {
     margin-bottom: 0;
   }
 
-  .footer-socials-item {
+  .footer-socials-link {
     width: 36px;
     height: 36px;
   }
 
-  .contacts {
+  .footer-socials-link:hover .footer-socials-icon,
+  .footer-socials-link:focus .footer-socials-icon,
+  .footer-socials-link:active .footer-socials-icon {
+    opacity: 1;
+  }
+
+  .footer-contacts {
     width: 160px;
     height: 48px;
     margin-bottom: 0;
   }
 
   .footer-contacts-tel {
-    font-size: 12px;
+    font-size: 14px;
     line-height: 1.29;
   }
 
@@ -203,10 +225,12 @@ hr {
   }
 
   .footer-nav-link {
+    font-size: 14px;
+    line-height: 1.29;
     color: #fbfbfb;
   }
   .footer-adress {
-    max-width: 162px;
+    max-width: 166px;
     font-size: 14px;
     line-height: 1.29;
   }
@@ -238,5 +262,22 @@ hr {
   .policy-link {
     font-size: 14px;
     line-height: 1.29;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .footer-container {
+    min-width: 1136px;
+  }
+
+  .footer-first-wrapper {
+    flex-wrap: nowrap;
+    gap: 0;
+    justify-content: space-between;
+    margin-bottom: 126px;
+  }
+
+  .footer-contacts {
+    order: 2;
   }
 }
