@@ -266,7 +266,6 @@ hr {
 @media screen and (min-width: 1280px) {
   .footer-container {
     min-width: 1136px;
-    margin-left: -33px;
   }
 
   .footer-first-wrapper {
