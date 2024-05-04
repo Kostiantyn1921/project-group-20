@@ -81,3 +81,9 @@ img {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+
+.is-open {
+  opacity: 1;
+  pointer-events: auto;
+  visibility: visible;
+}
