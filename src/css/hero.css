@@ -68,7 +68,9 @@
 }
 
 @media screen and (min-width: 320px) and (max-width: 374px) {
-  .hero-container {
+  .hero-container,
+  .hero-first-wrapper,
+  .hero-second-wrapper {
     width: 100%;
   }
 }
