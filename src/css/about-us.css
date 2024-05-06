@@ -12,8 +12,7 @@
     border-radius: 30px;
     padding-top: 40px;
     padding-bottom: 40px;
-    margin-left: auto;
-
+    margin: 0 auto;
     margin-bottom: 20px;
 }
 
@@ -53,7 +52,7 @@
 }
 .aboutus-wrap {
     max-width: 335px;
-    margin-right: auto;
+    margin: 0 auto;
 }
 
 
@@ -146,5 +145,6 @@
     .aboutus-wrap {
         max-width: 530px;
         height: 532px;
+        margin-left:0;
     }
 }
