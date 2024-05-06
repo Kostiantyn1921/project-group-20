@@ -1,5 +1,8 @@
+.container {
+  padding: 0 20px;
+}
 
-.advertisement {
+.advertisement-container {
   border-radius: 30px;
   max-width: 335px;
   max-height: 363px;
@@ -23,7 +26,6 @@
   padding: 60px 28px 0 28px;
   text-align: center;
 }
-
 
 .advertisement {
   border-radius: 30px;
