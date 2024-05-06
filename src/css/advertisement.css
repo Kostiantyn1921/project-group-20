@@ -1,18 +1,40 @@
-<<<<<<< Updated upstream
 .container {
+  max-width: 375px;
   padding: 0 20px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.advertisement {
+  padding: 30px 0;
 }
 
 .advertisement-container {
   border-radius: 30px;
-  max-width: 335px;
-  max-height: 363px;
+  width: 335px;
+  height: 363px;
   background: #0c0c0c;
-  background-image: url(/img/advertisement/advertisement-bgc-mob.jpg);
+  background-image: url(/images/advertisement/advertisement-bgc-mob.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  margin: 30px 0;
+  padding: 60px 28px;
+}
+
+@media screen and (min-resolution: 2dppx), (min-resolution: 192dpi) {
+  .advertisement-container {
+    background-image: url(/img/advertisement/advertisement-bgc-mob-2x.jpg);
+  }
 }
 
 .advertisement-text {
@@ -22,31 +44,40 @@
   line-height: 1;
   letter-spacing: -0.02em;
   color: #fbfbfb;
-  width: 279px;
   margin-bottom: 28px;
-  padding: 60px 28px 0 28px;
-  text-align: center;
 }
-
-.advertisement {
-  border-radius: 30px;
-  max-width: 335px;
-  max-height: 363px;
-=======
-.advertisement-container {
->>>>>>> Stashed changes
-  background: #0c0c0c;
-  border-radius: 30px;
-  width: 335px;
-  height: 363px;
-  padding: 60px 28px;
-}
-
-.advertisement-text {
-}
-
 .advertisement-text-color {
+  color: rgba(251, 251, 251, 0.5);
+}
+.advertisement-btn {
+  border: 1px solid rgba(251, 251, 251, 0.15);
+  border-radius: 16px;
+  width: 160px;
+  height: 48px;
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  text-align: center;
+  color: #fbfbfb;
+  background-color: transparent;
 }
 
-.advertisement-btn {
+@media screen and (min-width: 320px) and (max-width: 374px) {
+  .advertisement-container {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .advertisement-container {
+    width: 704px;
+    height: 425px;
+    background-image: url(/img/advertisement/advertisement-bgc-tab.jpg);
+  }
+  @media screen and (min-resolution: 2dppx), (min-resolution: 192dpi) {
+    .advertisement-container {
+      background-image: url(/img/advertisement/advertisement-bgc-tab-2x.jpg);
+    }
+  }
 }
