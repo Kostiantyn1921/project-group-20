@@ -192,6 +192,10 @@ hr {
     opacity: 1;
   }
 
+  .footer-socials-icon {
+    transition: opasity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
   .footer-contacts {
     width: 160px;
     height: 48px;
