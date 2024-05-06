@@ -3,18 +3,31 @@
     margin-bottom: 30px;
 }
 
+<<<<<<< Updated upstream
+=======
+.aboutus-container {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+ } 
+
+>>>>>>> Stashed changes
 .aboutus-content {
     width: 335px;
-    display: flex;
-    flex-direction: column;
     background-color: #f3f3f3;
     border-radius: 30px;
     padding-top: 40px;
     padding-bottom: 40px;
+<<<<<<< Updated upstream
     padding-left: 20px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 20px;
+=======
+    margin: auto 0;
+>>>>>>> Stashed changes
 }
 
 .aboutus-title{
@@ -30,7 +43,13 @@
     display: flex;
     flex-direction: column;
     row-gap: 20px;
+<<<<<<< Updated upstream
     margin-bottom: 20px;
+=======
+    margin-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+>>>>>>> Stashed changes
 }
 
 .aboutus-item {
@@ -43,18 +62,16 @@
     letter-spacing: -0.02em;
     text-align: left;
     color: rgba(12, 12, 12, 0.7);
-
-    /* margin-bottom: 20px;
-    max-width: 295px; */
-    /* position: relative;  */
-
 }
+<<<<<<< Updated upstream
 .aboutus-wrap {
     max-width: 335px;
     margin-left: auto;
     margin-right: auto;
 }
 
+=======
+>>>>>>> Stashed changes
 
 .aboutus-image-btn {
     font-weight: 500;
@@ -70,7 +87,6 @@
     height: 48px;
     padding: 15px 38px;
     display: block;
-    /* margin-top: 20px; */
     min-width: 160px;
     
 }
@@ -80,25 +96,47 @@
     background-color: #1f3cd4;;
 }
 
-.tablet {
-    display: none;
+.aboutus-wrap {
+    max-width: 335px;
 }
 
-.desktop {
-    display: none;
+.aboutus-img {
+    
 }
+
+
+
 
 @media screen and (min-width: 768px) {
+    .aboutus {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .aboutus-container {
+        gap: 40px;
+    } 
+
     .aboutus-content {
         width: 704px;
         padding-top: 80px;
         padding-bottom: 80px;
+<<<<<<< Updated upstream
         padding-left: 60px;
         margin-bottom: 40px;
+=======
+        /* margin-bottom: 40px; */
+>>>>>>> Stashed changes
     }
 
     .aboutus-title {
         font-size: 48px;
+<<<<<<< Updated upstream
+=======
+        line-height: 0.91667;
+        margin-bottom: 40px;
+        padding-left: 60px;
+>>>>>>> Stashed changes
     }
 
     .aboutus-item {
@@ -111,7 +149,12 @@
     }
 
     .aboutus-list {
+<<<<<<< Updated upstream
         margin-bottom: 40px;
+=======
+        margin-bottom: 60px;
+        padding-left: 60px;
+>>>>>>> Stashed changes
     }
 
     .aboutus-wrap {
@@ -119,25 +162,44 @@
     }
 } 
 
+
+
+
 @media screen and (min-width: 1280px) {
 
-    .aboutus-container {
-       display: flex; 
-       align-items: center;
-       gap: 40px;
+    .aboutus {
+        margin-top: 50px;
+        margin-bottom: 50px;
     }
 
+     .aboutus-container {
+        flex-direction: row;
+    } 
+
     .aboutus-content {
+<<<<<<< Updated upstream
        width: 580px;
        margin-bottom:0;
+=======
+       width: 580px; 
+       padding-top: 89px;
+    }
+   
+    .aboutus-list {
+        margin-bottom: 31px;
+        padding-left: 60px;
+>>>>>>> Stashed changes
     }
 
     .aboutus-item {
         max-width: 460px;  
     }
+<<<<<<< Updated upstream
 
     .aboutus-wrap {
         max-width: 530px;
         height: 532px;
     }
+=======
+>>>>>>> Stashed changes
 }
