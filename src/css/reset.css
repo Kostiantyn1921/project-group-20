@@ -52,21 +52,18 @@ img {
 @media screen and (min-width: 375px) {
   .container {
     width: 375px;
-    padding: 0 20px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .container {
     width: 768px;
-    padding: 0 32px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .container {
     width: 1280px;
-    padding: 0 65px;
   }
 }
 
@@ -81,4 +78,10 @@ img {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
+}
+
+.is-open {
+  opacity: 1;
+  pointer-events: auto;
+  visibility: visible;
 }
